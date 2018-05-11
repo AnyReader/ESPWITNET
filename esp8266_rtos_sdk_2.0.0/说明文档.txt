@@ -1,0 +1,39 @@
+esp8266_rtos_sdk_2.0.0_201804172142
+boot.bin------------>0x00000
+user1.1024.new.2.bin--->0x01000
+
+串口UART0  115200 收到什么发送什么
+
+
+esp8266_rtos_sdk_2.0.0_201804180011
+lwip接口编程
+设置成AP
+建立TCP Server  将client发送来的数据再回送
+
+
+esp8266_rtos_sdk_2.0.0_201804271004
+lwip接口编程
+设置成STATION
+建立TCP Client  发送数据  hello, you are connected!
+
+esp8266_rtos_sdk_2.0.0_tcp_client_201804271630
+lwip接口编程
+设置成STATION,连接路由器
+建立TCP Client  收到服务端发过来的什么数据将其发送回去。
+
+esp8266_rtos_sdk_2.0.0_tcp_client_201804271735
+建立任务3   串口中断收到字符发队列（消息）给任务3处理
+
+esp8266_rtos_sdk_2.0.0_tcp_client_201804271947
+实现功能：接收到串口数据通过TCP发出去。接收到TCP数据通过串口发出去。
+建立任务3   串口中断收到字符发队列（消息）给任务3处理 send
+
+esp8266_rtos_sdk_2.0.0_tcp_client_201804272020
+增加TCP断开后重连
+
+esp8266_rtos_sdk_2.0.0_tcp_client_201804281426
+建立UDP server,收到什么回复什么。
+
+esp8266_rtos_sdk_2.0.0_tcp_client_201804281620
+建立UDP server 按协议回复。
+
